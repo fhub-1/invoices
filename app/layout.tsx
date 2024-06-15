@@ -42,13 +42,13 @@ export default function RootLayout({
                 <span className='sr-only'>Acme Inc</span>
               </Link>
               <Link
-                href='/invoices'
+                href=''
                 className='text-muted-foreground transition-colors hover:text-foreground'
               >
                 Invoices
               </Link>
               <Link
-                href='/clients'
+                href='/clientlist'
                 className='text-muted-foreground transition-colors hover:text-foreground'
               >
                 Clients
@@ -58,6 +58,12 @@ export default function RootLayout({
                 className='text-muted-foreground transition-colors hover:text-foreground'
               >
                 Reports
+              </Link>
+              <Link
+                href='/settings'
+                className='text-muted-foreground transition-colors hover:text-foreground'
+              >
+                Settings
               </Link>
             </nav>
             <Sheet>
@@ -87,7 +93,7 @@ export default function RootLayout({
                     Invoices
                   </Link>
                   <Link
-                    href='/clients'
+                    href='/clientlist'
                     className='text-muted-foreground transition-colors hover:text-foreground'
                   >
                     Clients
@@ -97,6 +103,12 @@ export default function RootLayout({
                     className='text-muted-foreground transition-colors hover:text-foreground'
                   >
                     Reports
+                  </Link>
+                  <Link
+                    href='/settings'
+                    className='text-muted-foreground transition-colors hover:text-foreground'
+                  >
+                    Settings
                   </Link>
                 </nav>
               </SheetContent>
